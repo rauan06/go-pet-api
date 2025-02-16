@@ -10,13 +10,17 @@ go mod tidy
 go run cmd/api/main.go
 ```
 
+
+## API Deployment
+🚀 **Live API available at:**  
+[![Render](https://img.shields.io/badge/deployment-Render-blue)](https://go-pet-api.onrender.com)
+
 ## API Documentation
 📖 **Interactive API Docs available on SwaggerHub:**  
 [![SwaggerHub](https://img.shields.io/badge/documentation-SwaggerHub-blue)](https://app.swaggerhub.com/apis/hobby-ec8/books_weather/1.0.0)
 
 You can view and test the API interactively using **SwaggerHub**:  
 🔗 [Click here to open Swagger Documentation](https://app.swaggerhub.com/apis/hobby-ec8/books_weather/1.0.0)
-
 ---
 
 ## API Endpoints
