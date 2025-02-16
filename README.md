@@ -10,10 +10,12 @@ go mod tidy
 go run cmd/api/main.go
 ```
 
-
 ## API Deployment
 🚀 **Live API available at:**  
 [![Render](https://img.shields.io/badge/deployment-Render-blue)](https://go-pet-api.onrender.com)
+
+You can access the live API at:  
+🔗 [Go Pet API on Render](https://go-pet-api.onrender.com)
 
 ## API Documentation
 📖 **Interactive API Docs available on SwaggerHub:**  
@@ -21,6 +23,7 @@ go run cmd/api/main.go
 
 You can view and test the API interactively using **SwaggerHub**:  
 🔗 [Click here to open Swagger Documentation](https://app.swaggerhub.com/apis/hobby-ec8/books_weather/1.0.0)
+
 ---
 
 ## API Endpoints
@@ -28,13 +31,13 @@ You can view and test the API interactively using **SwaggerHub**:
 ### 📚 Get Books
 ```http
 GET /books HTTP/1.1
-Host: localhost:8080
+Host: go-pet-api.onrender.com
 ```
 
 ### ➕ Add a Book
 ```http
 POST /books HTTP/1.1
-Host: localhost:8080
+Host: go-pet-api.onrender.com
 Content-Type: application/json
 
 {
@@ -48,7 +51,7 @@ Content-Type: application/json
 ### ✏️ Update a Book
 ```http
 PUT /book/{id} HTTP/1.1
-Host: localhost:8080
+Host: go-pet-api.onrender.com
 Content-Type: application/json
 
 {
@@ -62,13 +65,13 @@ Content-Type: application/json
 ### 🗑️ Delete a Book
 ```http
 DELETE /book/{id} HTTP/1.1
-Host: localhost:8080
+Host: go-pet-api.onrender.com
 ```
 
 ### 🌦️ Get Weather for a City
 ```http
 GET /weather/{city} HTTP/1.1
-Host: localhost:8080
+Host: go-pet-api.onrender.com
 ```
 
 ---
